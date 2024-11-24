@@ -9,7 +9,6 @@ from user_agent import generate_user_agent as agent
 from time import sleep
 
 
-
 class Sms:
     def __init__(self, phone, proxy):
         self.phone, self.proxy = phone, proxy
